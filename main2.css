@@ -1,0 +1,54 @@
+.container{
+	margin-top: 30px
+}
+
+nav{
+	border-radius: 10px;
+	margin-top: 50px;
+	font-weight: bold;
+	border: 1px solid #CCC;
+	background: linear-gradient(#F5F5F5, #D5D5D5);
+}
+
+nav li {
+	text-align: center;
+	border-left: 1px solid #CCC;
+	border-right: 1px solid #CCC;
+}
+
+#bs-example-navbar-collapse-1 > ul > li:nth-child(1) {
+	border-left: none;
+}
+
+#bs-example-navbar-collapse-1 > ul > li:nth-child(6) {
+	border-right: none;
+}
+
+.navbar-brand{
+	color: #777777;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.jumbotron{
+	text-align: center;
+	padding: 0;
+	background-color: white;
+}
+
+.alert-danger{
+	background-color: white;
+}
+
+footer {
+	padding: 20px;
+}
+
+.navbar-nav {
+	float: none;
+	margin: 0 auto;
+}
+
+.selected{
+	background-color: #DDDDDD;
+}
